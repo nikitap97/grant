@@ -105,7 +105,7 @@ print(df)
 
 print()
 
-res = requests.post(url = "https://incometaxcalc1.herokuapp.com/calc", json = data)
+res = requests.post(url = "https://grant2.herokuapp.com/calc", json = data)
 
 
 print(res.json())
