@@ -3,7 +3,10 @@ import pandas as pd
 from flask import jsonify
 app=Flask(__name__)
 
+
+
 def grant(hours):
+
     amount = 0
     print("covid grant calculator called")
     if hours <= 20:  #2 Lakh 50 thousand
@@ -16,29 +19,37 @@ def grant(hours):
 
     print( amount, "AUD is paid!")
 
-    return hours
+    return amount
 
 
 
 @app.route("/calc", methods=['GET', 'POST'])
-def upload_file():
+def calculator():
+
     if request.method == 'POST':
+
         data = request.get_json()
-        
+
         df= pd.DataFrame(data["data"])
+        
         print(df)
+
         l = list(df["CREDIT"].values)
 
+        l2 = list(df["HOURS"].values)
 
-        hours = sum(l)
+        hours= sum(l2)
 
-        hour1 = grant(hours)
-        print("Grant amount is :" ,hour1, "AUD")
+        amount = grant(hours)
+        print("Grant amount is :" ,amount, "AUD")
+
         d = {
         "hours lost" : float(hours),
-        "Amount" : float(hour1)
+        "Amount" : float(amount)
         }
         return jsonify(d)
+    else :
+        return None
 
 
 
