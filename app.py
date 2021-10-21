@@ -4,6 +4,7 @@ from flask import jsonify
 app=Flask(__name__)
 
 def grant(hours):
+    amount = 0
     print("covid grant calculator called")
     if hours <= 20:  #2 Lakh 50 thousand
         amount = amount + 500
