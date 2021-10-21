@@ -5,8 +5,9 @@ import requests
   {
     "INDEX": 0,
     "DATE": "2021-07-11",
-    "SOURCE NAME": "CENTRELINK",
+    "SOURCE NAME": "CENTRELINK",  
     "CREDIT": 750,
+    "HOURS": 25,  
     "DEBIT": 0
   },
   {
@@ -14,6 +15,7 @@ import requests
     "DATE": "2021-07-18",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -21,6 +23,7 @@ import requests
     "DATE": "2021-07-25",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -28,6 +31,7 @@ import requests
     "DATE": "2021-08-01",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -35,6 +39,7 @@ import requests
     "DATE": "2021-08-08",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -42,6 +47,7 @@ import requests
     "DATE": "2021-08-15",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -49,6 +55,7 @@ import requests
     "DATE": "2021-08-22",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -56,6 +63,7 @@ import requests
     "DATE": "2021-08-29",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -63,6 +71,7 @@ import requests
     "DATE": "2021-09-05",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -70,6 +79,7 @@ import requests
     "DATE": "2021-09-12",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -77,6 +87,7 @@ import requests
     "DATE": "2021-09-19",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -84,6 +95,7 @@ import requests
     "DATE": "2021-09-26",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
@@ -91,6 +103,7 @@ import requests
     "DATE": "2021-10-03",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   }
 ]
