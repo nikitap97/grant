@@ -93,6 +93,7 @@
     "DATE": "2021-09-26",
     "SOURCE NAME": "CENTRELINK",
     "CREDIT": 750,
+    "HOURS": 25,
     "DEBIT": 0
   },
   {
